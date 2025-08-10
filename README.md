@@ -8,12 +8,9 @@ Repositório com os projetos desenvolvidos na Fase 1 do programa EmbarcaTech pel
 - `semaforo_bitdoglab/` — semáforo físico implementado com Pico (GPIO / timers / PWM).
 - `semaforo_wokwi/` — versão/simulação para Wokwi (simulador online).
 
-## Como preparar o repo para publicar
-1. Remover pastas de `build/` e arquivos binários gerados (ex.: `.o`, `.elf`, `.bin`, `build/`) antes de subir.
-2. Adicionar `.gitignore` para projetos C / Pico (ex.: `build/`, `.vscode/`, `*.o`, `*.elf`, `*.bin`, `*.uf2`).
-3. Adicionar um `LICENSE` (recomendo MIT se quiser abrir livremente).
-4. Criar instruções de compilação por projeto (ex.: dependências do Pico SDK, comandos `cmake`/`make`).
+## Como rodar os projetos na bitDogLab
+1. Baixar a extensão Raspberry Pi Pico no VS Code.
+2. Baixar o Zadig e instalar o driver da interface.
+3. Fazer o boot (bootsel) na Raspberry Pi Pico e arrastar o arquivo .uf2 para o novo dispositivo reconhecido no PC.
 
-## Licença
-MIT (ou escolha outra que prefira)
 
